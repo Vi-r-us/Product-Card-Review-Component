@@ -16,9 +16,12 @@
 <body>
 
   <article class="product__card">
-    <div class="product__img">
-      <img src="images/image-product-mobile.jpg" alt="">
-    </div>
+    <picture class="product__img">
+      <source srcset="images/image-product-desktop.jpg" 
+        media="(min-width: 620px)">
+      <img src="images/image-product-mobile.jpg" 
+        alt="Perfume Image">
+    </picture >
 
     <div class="product__details">
       <p class="product__subtitle">Perfume</p>
